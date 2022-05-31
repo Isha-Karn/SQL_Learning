@@ -1,0 +1,1 @@
+UPDATE expenses SET date= CURRENT_DATE WHERE sn>1

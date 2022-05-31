@@ -1,0 +1,7 @@
+CREATE TABLE expenses(
+    sn INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    date DATETIME DEFAULT CURRENT_DATE,
+    trans FLOAT NOT NULL,
+    total FLOAT,
+    remarks VARCHAR(255)
+    )
